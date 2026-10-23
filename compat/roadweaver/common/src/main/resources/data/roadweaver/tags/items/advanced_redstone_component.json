@@ -1,0 +1,33 @@
+{
+	"values": [
+		"minecraft:piston",
+		"minecraft:sticky_piston",
+		"minecraft:observer",
+		"minecraft:dropper",
+		"minecraft:dispenser",
+		{
+			"id": "minecraft:crafter",
+			"required": false
+		},
+		{
+			"id": "minecraft:weathered_copper_bulb",
+			"required": false
+		},
+		{
+			"id": "minecraft:oxidized_copper_bulb",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_exposed_copper_bulb",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_weathered_copper_bulb",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_oxidized_copper_bulb",
+			"required": false
+		}
+	]
+}

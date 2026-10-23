@@ -1,0 +1,16 @@
+{
+  "type": "roadweaver:roadside",
+  "biomes": "#minecraft:is_overworld",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "template": "roadweaver:roadside/small/roadside_bench",
+  "size_hint": [3, 2, 2],
+  "weight": 10,
+  "face_road": true,
+  "scale": "small",
+  "placement_rule": {
+    "allowed_biomes": ["plains", "forest", "taiga", "cherry_grove"],
+    "min_road_length": 0
+  }
+}

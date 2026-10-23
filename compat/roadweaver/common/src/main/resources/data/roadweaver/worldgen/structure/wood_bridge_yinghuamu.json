@@ -1,0 +1,10 @@
+{
+  "type": "roadweaver:bridge",
+  "template": "roadweaver:bridge/wood_bridge_yinghuamu",
+  "biomes": "minecraft:cherry_grove",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "height_offset": 0,
+  "bridge_deck_start": 3,
+  "bridge_deck_end": 11
+}

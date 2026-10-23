@@ -1,0 +1,20 @@
+RoadWeaver Credits and Notices
+
+This project includes code adapted from:
+
+- settlement-roads-new (CC0 1.0 Universal)
+  Author: Countered
+  Source: https://github.com/countered/settlement-roads-new
+  Notes: Portions of the road generation and decoration system were ported, including but not limited to:
+  - Feature configuration and placement data formats (configured/placed features)
+  - Road generation logic (A* pathfinding, segment interpolation, surface placement)
+  - Decoration system (lampposts, fence waypoints, distance signs, buoys)
+  - Biome-aware wood selection
+
+The original work is dedicated to the public domain under CC0 1.0; attribution is not legally required, but is provided here out of respect and for transparency.
+
+Additional Acknowledgments
+
+- The map is inspired by RoadArchitect: https://github.com/Shadscure/RoadArchitect
+
+RoadWeaver is licensed under the MIT License. See LICENSE for details.

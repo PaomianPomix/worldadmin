@@ -1,0 +1,48 @@
+
+> Configure project :
+Architect Plugin: 3.4.164
+Architectury Loom: 1.7.435
+You are using an outdated version of Architectury Loom! This version will not receive any support, please consider updating!
+
+> Task :neoforge:processResources UP-TO-DATE
+> Task :neoforge:processIncludeJars UP-TO-DATE
+> Task :neoforge:processTestResources NO-SOURCE
+> Task :neoforge:validateAccessWidener NO-SOURCE
+> Task :common:compileJava
+> Task :common:processResources UP-TO-DATE
+> Task :common:classes
+> Task :common:jar
+
+> Task :neoforge:compileJava
+
+> Task :neoforge:classes
+ע: D:\worldadmin\compat\roadweaver\neoforge\src\main\java\net\shiroha233\roadweaver\mixin\neoforge\BeardifierMixin.javaʹ�û򸲸����ѹ�ʱ�� API��
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+> Task :neoforge:jar UP-TO-DATE
+> Task :neoforge:compileTestJava NO-SOURCE
+> Task :neoforge:testClasses UP-TO-DATE
+> Task :neoforge:test NO-SOURCE
+
+> Task :common:transformProductionNeoForge
+[Architectury Transformer] Read classpath in 1.418 s
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 2.429 s
+
+> Task :common:sourcesJar
+> Task :neoforge:shadowJar
+> Task :neoforge:sourcesJar
+[ERROR] [MIXIN] Cannot resolve class raccoonman/reterraforged/world/worldgen/feature/template/TemplateFeature
+[ERROR] [MIXIN] Cannot resolve class raccoonman/reterraforged/world/worldgen/feature/BushFeature
+[ERROR] [MIXIN] Cannot resolve class dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/TreeFromStructureNBTFeature
+> Task :common:compileTestJava
+> Task :common:processTestResources NO-SOURCE
+> Task :common:testClasses
+> Task :neoforge:remapJar
+> Task :neoforge:verifyLwjglPackaging
+> Task :neoforge:check
+> Task :neoforge:remapSourcesJar
+> Task :neoforge:assemble
+> Task :neoforge:build
+> Task :common:test
+
+BUILD SUCCESSFUL in 23s
+16 actionable tasks: 12 executed, 4 up-to-date

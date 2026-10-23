@@ -1,0 +1,65 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = 'dev.worldadmin'
+version = '0.2.0'
+base { archivesName = 'worldadmin' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories { mavenCentral() }
+
+neoForge {
+    version = '21.1.216'
+    runs {
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'worldadmin'
+        }
+        smokeServer {
+            server()
+            gameDirectory = project.file(providers.gradleProperty('smokeDirectory').getOrElse('run-smoke'))
+            programArgument '--nogui'
+            systemProperty 'worldadmin.smokeTest', 'true'
+            jvmArguments.addAll('-Xms1G', '-Xmx6G', '-XX:ActiveProcessorCount=4')
+        }
+        seedSmokeServer {
+            server()
+            gameDirectory = project.file(providers.gradleProperty('smokeDirectory').getOrElse('run-seed-smoke'))
+            programArgument '--nogui'
+            systemProperty 'worldadmin.seedSmoke', 'true'
+            jvmArguments.addAll('-Xms1G', '-Xmx6G', '-XX:ActiveProcessorCount=4')
+        }
+    }
+    mods {
+        worldadmin { sourceSet sourceSets.main }
+    }
+}
+
+dependencies {
+    // Opt-in local compatibility fixtures; third-party JARs are never packaged into this mod.
+    if (providers.gradleProperty('compatFixtures').isPresent()) {
+        runtimeOnly fileTree(dir: providers.gradleProperty('compatFixturesDir').getOrElse('test-mods'), include: ['*.jar'])
+    }
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.named('jar') {
+    exclude 'dev/worldadmin/gametest/**'
+    from('LICENSE') { rename { 'LICENSE-worldadmin.txt' } }
+}
+
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+}

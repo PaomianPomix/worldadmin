@@ -1,0 +1,19 @@
+{
+	"type": "roadweaver:roadside",
+	"biomes": "#minecraft:is_overworld",
+	"step": "surface_structures",
+	"spawn_overrides": {},
+	"terrain_adaptation": "none",
+	"start_height": {
+		"absolute": -1
+	},
+	"use_accurate_height": true,
+	"template": "roadweaver:roadside/small/graves/easter_egg",
+	"size_hint": [3, 2, 4],
+	"weight": 1,
+	"scale": "small",
+	"placement_rule": {
+		"allowed_biomes": [],
+		"min_road_length": 250
+	}
+}

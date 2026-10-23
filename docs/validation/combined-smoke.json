@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    "Created noise world from live overworld template",
+    "Create did not generate spawn chunks",
+    "Dimension heights match live Epic/vanilla template",
+    "DH temporary override acquired: Distant Horizons generation suspended by World Admin",
+    "DH override released: Distant Horizons user configuration restored",
+    "Queued one FULL chunk through admission control",
+    "Paused before admission",
+    "Pause preserves unfinished work",
+    "Resumed task",
+    "Bounded scheduler completed a real FULL chunk",
+    "Drained job removable",
+    "Created second world for isolation check",
+    "RoadWeaver: 10 road records in worldadmin:smoke_a79149ac5996489f907271129e54c6b6, zero roads/connections in untouched worldadmin:smoke_a79149ac5996489f907271129e54c6b6_b; native FULL placed minecraft:mud_bricks at 407, 84, -2288",
+    "DH FEATURES generated 4096 populated LOD columns in worldadmin:smoke_a79149ac5996489f907271129e54c6b6; intercepted/delegated/completed\u003d1/1/1; encoded road materials\u003d[minecraft:mud_brick_slab, minecraft:mud_bricks, minecraft:packed_mud] in 145 LOD columns (145 vertical spans)",
+    "Isolated second world unloaded",
+    "Drained world saved and unloaded",
+    "World removed from server map",
+    "Persisted world reloaded",
+    "Reloaded empty world cleanly unloaded"
+  ],
+  "elapsedSeconds": 505.7728669,
+  "mods": [
+    "minecraft@1.21.1",
+    "cloth_config@15.0.130",
+    "mr_epic_terrain_compatible@1.0.3",
+    "architectury@13.0.6",
+    "worldadmin@0.1.0",
+    "neoforge@21.1.216",
+    "distanthorizons@3.3.3",
+    "roadweaver@2.3.1-worldadmin.1-1.21.1"
+  ]
+}

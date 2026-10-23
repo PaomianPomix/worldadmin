@@ -1,0 +1,178 @@
+[2310月2026 11:51:03.818] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.216, --fml.neoFormVersion, 20240808.144430]
+[2310月2026 11:51:03.825] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250
+[2310月2026 11:51:03.825] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[2310月2026 11:51:03.960] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[2310月2026 11:51:04.030] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Pomix/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[2310月2026 11:51:04.581] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[2310月2026 11:51:04.582] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.216 (neoforge)
+		World Admin 0.1.0 (worldadmin)
+[2310月2026 11:51:05.755] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[2310月2026 11:51:05.763] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[2310月2026 11:51:07.913] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[2310月2026 11:51:13.630] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 11:51:13.630] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 11:51:13.630] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2310月2026 11:51:13.630] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2310月2026 11:51:13.638] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 11:51:13.724] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.216, for MC 1.21.1
+[2310月2026 11:51:14.065] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[2310月2026 11:51:14.182] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[2310月2026 11:51:14.183] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[2310月2026 11:51:14.189] [main/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [worldadmin]
+[2310月2026 11:51:15.197] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1291 recipes
+[2310月2026 11:51:15.358] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1400 advancements
+[2310月2026 11:51:15.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[2310月2026 11:51:16.043] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[2310月2026 11:51:16.133] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 145 ms
+[2310月2026 11:51:16.168] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Started game test server
+[2310月2026 11:51:16.186] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[2310月2026 11:51:16.218] [Server thread/INFO] [dev.worldadmin.WorldAdmin/]: World Admin ready; managed worlds use the server seed. Optional generation is load-gated.
+[2310月2026 11:51:16.318] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: 5 tests are now running at position 12587290, -59, 217943!
+[2310月2026 11:51:16.523] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'worldadmin_namespace:0' (1 tests)...
+[2310月2026 11:51:16.675] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [     ]
+[2310月2026 11:51:16.687] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [     ]
+[2310月2026 11:51:16.726] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [     ]
+[2310月2026 11:51:16.825] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'worldadmin_gate_lifecycle:0' (1 tests)...
+[2310月2026 11:51:16.881] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+    ]
+[2310月2026 11:51:16.894] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+    ]
+[2310月2026 11:51:16.979] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'worldadmin_lifecycle:0' (1 tests)...
+[2310月2026 11:51:16.983] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++   ]
+[2310月2026 11:51:17.012] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.025] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.040] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.048] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.057] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.066] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.073] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.080] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.086] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.093] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.100] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.107] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.113] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.119] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.124] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.128] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.132] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.137] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.141] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.145] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.149] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.152] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.156] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.161] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.686] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_  ]
+[2310月2026 11:51:17.731] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'worldadmin_scheduler:0' (1 tests)...
+[2310月2026 11:51:17.734] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++  ]
+[2310月2026 11:51:17.802] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:17.871] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:17.936] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:17.996] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.057] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.133] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.195] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.258] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.319] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.379] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.439] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.511] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.570] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.628] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.687] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.749] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.808] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.876] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.936] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:18.990] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.055] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.115] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.174] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.244] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.316] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.390] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.456] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.521] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.583] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.645] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.705] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.770] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.828] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.886] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:19.947] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.004] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.061] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.122] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.189] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.249] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.308] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.362] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.418] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.475] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.533] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.600] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.662] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.723] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.786] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.849] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.905] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:20.967] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.027] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.100] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.173] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.240] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.301] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.362] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.419] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.477] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.537] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.596] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.665] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.721] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.781] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.840] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.895] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:21.952] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.010] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.064] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.120] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.184] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.239] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.296] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.351] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.407] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.462] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.518] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.574] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.629] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.693] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.747] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.805] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:22.872] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_ ]
+[2310月2026 11:51:23.246] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'worldadmin_dh:0' (1 tests)...
+[2310月2026 11:51:23.270] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++ ]
+[2310月2026 11:51:23.272] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++ ]
+[2310月2026 11:51:23.274] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++ ]
+[2310月2026 11:51:23.276] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++ ]
+[2310月2026 11:51:23.280] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++ ]
+[2310月2026 11:51:23.282] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++]
+[2310月2026 11:51:23.284] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ========= 5 GAME TESTS COMPLETE IN 6.962 s ======================
+[2310月2026 11:51:23.285] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: All 5 required tests passed :)
+[2310月2026 11:51:23.286] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ====================================================
+[2310月2026 11:51:23.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[2310月2026 11:51:23.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[2310月2026 11:51:23.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[2310月2026 11:51:23.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[2310月2026 11:51:23.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[2310月2026 11:51:23.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[2310月2026 11:51:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/worldadmin:scheduler_8fbccbab242143fb9beac59e281a073a
+[2310月2026 11:51:23.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[2310月2026 11:51:23.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2310月2026 11:51:23.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[2310月2026 11:51:23.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (scheduler_8fbccbab242143fb9beac59e281a073a): All chunks are saved
+[2310月2026 11:51:23.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[2310月2026 11:51:23.814] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Game test server shutting down

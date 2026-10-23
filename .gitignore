@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+run-smoke/
+run-smoke-final/
+.research/
+.idea/
+*.iml
+test-mods/
+test-mods-seed/
+run-seed-smoke/
+/dist/archive/

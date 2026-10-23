@@ -1,0 +1,16 @@
+{
+  "type": "roadweaver:roadside",
+  "biomes": "#minecraft:is_overworld",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "template": "roadweaver:roadside/medium/roadside_campsite_1",
+  "size_hint": [12, 8, 12],
+  "weight": 5,
+  "face_road": true,
+  "scale": "medium",
+  "placement_rule": {
+    "allowed_biomes": ["plains", "forest", "taiga", "jungle", "savanna", "swamp", "cherry_grove"],
+    "min_road_length": 10000
+  }
+}

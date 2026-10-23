@@ -1,0 +1,12 @@
+{
+  "type": "roadweaver:spawn_cabin",
+  "biomes": "#minecraft:is_overworld",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "template": "roadweaver:starting_cabin",
+  "size_hint": [16, 10, 16],
+  "with_terrace": true,
+  "terrace_inner_radius": 10,
+  "terrace_outer_radius": 16
+}

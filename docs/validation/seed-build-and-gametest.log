@@ -1,0 +1,219 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jarJar NO-SOURCE
+> Task :jar UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test
+> Task :assemble UP-TO-DATE
+> Task :check
+> Task :build
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[13:04:52] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.216, --fml.neoFormVersion, 20240808.144430]
+[13:04:52] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250
+[13:04:52] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[13:04:52] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[13:04:52] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Pomix/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[13:04:52] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13:04:52] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.216 (neoforge)
+		World Admin 0.2.0 (worldadmin)
+[13:04:53] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13:04:53] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[13:04:55] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13:05:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:05:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:05:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:05:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:05:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:05:01] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.216, for MC 1.21.1
+[13:05:01] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:05:01] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[13:05:01] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[13:05:01] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [worldadmin]
+[13:05:02] [main/INFO] [minecraft/RecipeManager]: Loaded 1291 recipes
+[13:05:02] [main/INFO] [minecraft/AdvancementTree]: Loaded 1400 advancements
+[13:05:03] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[13:05:03] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[13:05:03] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 136 ms
+[13:05:03] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[13:05:03] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13:05:03] [Server thread/INFO] [de.wo.WorldAdmin/]: World Admin ready; managed world seeds are pinned independently. Optional generation is load-gated.
+[13:05:03] [Server thread/INFO] [minecraft/GameTestServer]: 7 tests are now running at position -1620331, -59, 12068377!
+[13:05:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_namespace:0' (1 tests)...
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [       ]
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [       ]
+[13:05:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_seed_commands:0' (1 tests)...
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [+      ]
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [+      ]
+[13:05:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_gate_lifecycle:0' (1 tests)...
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [++     ]
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [++     ]
+[13:05:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_seeds:0' (1 tests)...
+[13:05:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++    ]
+[13:05:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++_   ]
+[13:05:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++_   ]
+[13:05:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++_   ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_lifecycle:0' (1 tests)...
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++   ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++_  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_scheduler:0' (1 tests)...
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++  ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldadmin_dh:0' (1 tests)...
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++ ]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++]
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: ========= 7 GAME TESTS COMPLETE IN 10.03 s ======================
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: All 7 required tests passed :)
+[13:05:13] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[13:05:13] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[13:05:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[13:05:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/worldadmin:scheduler_8fbccbab242143fb9beac59e281a073a
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/worldadmin:seedtest_cd8d2f6425f1453b991728afbd9d789d
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/worldadmin:seedtest_b510a2d676894d898f09f991b6c8b3cc
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/worldadmin:seedtest_399adf5f63b0444e8c0e836fc5664122
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (scheduler_8fbccbab242143fb9beac59e281a073a): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (seedtest_cd8d2f6425f1453b991728afbd9d789d): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (seedtest_b510a2d676894d898f09f991b6c8b3cc): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (seedtest_399adf5f63b0444e8c0e836fc5664122): All chunks are saved
+[13:05:14] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:05:14] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+BUILD SUCCESSFUL in 34s
+10 actionable tasks: 2 executed, 8 up-to-date

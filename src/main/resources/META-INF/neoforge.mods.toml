@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="worldadmin"
+version="${version}"
+displayName="World Admin"
+description='''Server-side multi-world management with bounded, load-aware chunk pregeneration.'''
+
+[[mixins]]
+config="worldadmin.mixins.json"
+
+[[dependencies.worldadmin]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.216,21.2)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.worldadmin]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="SERVER"
+
+[features.worldadmin]
+javaVersion="[21,)"

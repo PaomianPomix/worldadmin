@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:repeater",
+		"minecraft:comparator",
+		"minecraft:redstone_torch",
+		"minecraft:redstone_lamp",
+		"minecraft:target",
+		"minecraft:trapped_chest",
+		"#minecraft:rails",
+		"#minecraft:buttons"
+	]
+}

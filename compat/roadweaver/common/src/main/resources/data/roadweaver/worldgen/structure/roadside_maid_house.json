@@ -1,0 +1,37 @@
+{
+  "type": "roadweaver:roadside",
+  "biomes": "#minecraft:is_overworld",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "template": "roadweaver:roadside/medium/maid_house",
+  "size_hint": [10, 10, 12],
+  "weight": 1,
+  "face_road": true,
+  "scale": "medium",
+  "placement_rule": {
+    "allowed_biomes": [],
+    "min_road_length": 300
+  },
+  "mob_spawns": [
+    {
+      "entity": "touhou_little_maid:maid",
+      "count_min": 1,
+      "count_max": 1,
+      "offset": [5, 1, 6],
+      "chance": 1.0
+    }
+  ],
+  "loot_configs": [
+    {
+      "loot_table": "roadweaver:chests/maid_house",
+      "offset": [9, 5, 9],
+      "chance": 1.0
+    },
+    {
+      "loot_table": "roadweaver:chests/maid_house",
+      "offset": [2, 1, 7],
+      "chance": 1.0
+    }
+  ]
+}

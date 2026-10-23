@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "Created noise world from live overworld template",
+    "Create did not generate spawn chunks",
+    "Dimension heights match live Epic/vanilla template",
+    "DH temporary override acquired: Distant Horizons generation suspended by World Admin",
+    "DH override released: Distant Horizons user configuration restored",
+    "Queued one FULL chunk through admission control",
+    "Paused before admission",
+    "Pause preserves unfinished work",
+    "Resumed task",
+    "Bounded scheduler completed a real FULL chunk",
+    "Drained job removable",
+    "Drained world saved and unloaded",
+    "World removed from server map",
+    "Persisted world reloaded",
+    "Reloaded empty world cleanly unloaded"
+  ],
+  "elapsedSeconds": 39.3567711,
+  "mods": [
+    "minecraft@1.21.1",
+    "mr_epic_terrain_compatible@1.0.3",
+    "worldadmin@0.1.0",
+    "neoforge@21.1.216",
+    "distanthorizons@3.3.3"
+  ]
+}

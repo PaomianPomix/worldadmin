@@ -1,0 +1,10 @@
+{
+  "mainChangedClassesSinceCombinedSmoke": [
+    "dev/worldadmin/WorldAdminCommands.class"
+  ],
+  "roadChangedClassesSinceCombinedSmoke": [],
+  "mainClassCount": 32,
+  "roadClassCount": 803,
+  "gameTestClassesPackaged": 0,
+  "validation": "Only the explicit world-namespace command fix changed after combined smoke; final five GameTests and unit tests passed."
+}

@@ -1,0 +1,126 @@
+{
+  "Passed": true,
+  "LegacyRegionFiles": 24,
+  "Files": [
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.-1.-1.mca",
+      "Unchanged": true,
+      "Hash": "8EEB00650A7EC85894E862988265A4696153D97005973CEABB9B777E9A6C0732"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.-1.0.mca",
+      "Unchanged": true,
+      "Hash": "9849D9002BD9863028F3A5F50867AA352BE4EE2B3ED590D528075564BC830839"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.-2.-5.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.-3.-7.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.-4.-6.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.0.-1.mca",
+      "Unchanged": true,
+      "Hash": "9DF6FC2548BF6A308A1D06EAA46FA859307D38C33CBEE6BCAA4E8973619B31D5"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.0.-5.mca",
+      "Unchanged": true,
+      "Hash": "BBD184779A0464E14BC090508C6B0DFBBF3A389AA853FC358F22CDCB70F213BB"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.0.0.mca",
+      "Unchanged": true,
+      "Hash": "23EC5A921B092FA55760CC23DA2DECBB6AEA3E05298D96CA71374AD33FF2DFCD"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.1.-1.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.1.-2.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.1.-5.mca",
+      "Unchanged": true,
+      "Hash": "2D5A1DF7932607ABFA2E2E1A451E319FAF375155B4401573276563D08AD12B86"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.1.-6.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.1.-7.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.1.-9.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.2.-5.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.3.-1.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.3.-3.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.3.-4.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.4.-1.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.4.-2.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.4.-3.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.5.-2.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.6.-1.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "D:\\worldadmin\\run-smoke-final\\world\\dimensions\\worldadmin\\smoke_a79149ac5996489f907271129e54c6b6\\region\\r.6.0.mca",
+      "Unchanged": true,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+[2310月2026 10:27:27.749] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.216, --fml.neoFormVersion, 20240808.144430]
+[2310月2026 10:27:27.749] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250
+[2310月2026 10:27:27.749] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[2310月2026 10:27:27.882] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[2310月2026 10:27:27.952] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Pomix/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[2310月2026 10:27:28.500] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[2310月2026 10:27:28.502] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Distant Horizons 3.3.3 (distanthorizons)
+		Epic Terrain Compatible 1.0.3 (mr_epic_terrain_compatible)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.216 (neoforge)
+		World Admin 0.1.0 (worldadmin)
+[2310月2026 10:27:29.654] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[2310月2026 10:27:30.076] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinChunkGenerator] -> [net.minecraft.world.level.chunk.ChunkGenerator]...
+[2310月2026 10:27:30.077] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinChunkMap] -> [net.minecraft.server.level.ChunkMap]...
+[2310月2026 10:27:30.078] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinServerPlayer] -> [net.minecraft.server.level.ServerPlayer]...
+[2310月2026 10:27:30.079] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinTFChunkGenerator] -> [net.minecraft.world.level.chunk.ChunkGenerator]...
+[2310月2026 10:27:30.079] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinTracingExecutor] -> [net.minecraft.Util]...
+[2310月2026 10:27:30.079] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinUtilBackgroundThread] -> [net.minecraft.Util]...
+[2310月2026 10:27:30.079] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinLevelTicks] -> [net.minecraft.world.entity.Entity]...
+[2310月2026 10:27:30.565] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[2310月2026 10:27:37.078] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 10:27:37.080] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 10:27:37.083] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2310月2026 10:27:37.084] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2310月2026 10:27:37.085] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 10:27:37.193] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.216, for MC 1.21.1
+[2310月2026 10:27:37.433] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[2310月2026 10:27:37.440] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer/]: Running library validation...
+[2310月2026 10:27:37.592] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Distant Horizons, Version: 3.3.3
+[2310月2026 10:27:37.603] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [optifine]
+[2310月2026 10:27:37.604] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [c2me]
+[2310月2026 10:27:37.606] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [imm_ptl_core, immersive_portals, immersive_portals_core]
+[2310月2026 10:27:37.607] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [chunky]
+[2310月2026 10:27:37.607] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [iris]
+[2310月2026 10:27:37.607] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_epic_terrain_compatible] Starting version check at https://api.modrinth.com/updates/sc69VpnK/forge_updates.json?neoforge=only
+[2310月2026 10:27:37.609] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Distant Horizons server Initialized, adding event subscribers...
+[2310月2026 10:27:37.680] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[2310月2026 10:27:37.761] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[2310月2026 10:27:37.762] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[2310月2026 10:27:37.771] [main/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [worldadmin]
+[2310月2026 10:27:38.700] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_epic_terrain_compatible] Found status: OUTDATED Current: 1.0.3 Target: 1.0.3+mod
+[2310月2026 10:27:38.829] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1291 recipes
+[2310月2026 10:27:38.990] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1400 advancements
+[2310月2026 10:27:39.334] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: class net.minecraft.gametest.framework.GameTestServer cannot be cast to class net.minecraft.server.dedicated.DedicatedServer (net.minecraft.gametest.framework.GameTestServer and net.minecraft.server.dedicated.DedicatedServer are in module minecraft@1.21.1 of loader 'TRANSFORMER' @444548a0)
+	Index: 0
+	Listeners:
+		0: com.seibel.distanthorizons.neoforge.NeoforgeMain$$Lambda/0x0000024b81d1e8b8@59d13c5c
+		1: net.neoforged.bus.EventListenerFactory$dedicatedWorldLoadEvent/0x0000024b81d18c00@4b1d9c75
+java.lang.ClassCastException: class net.minecraft.gametest.framework.GameTestServer cannot be cast to class net.minecraft.server.dedicated.DedicatedServer (net.minecraft.gametest.framework.GameTestServer and net.minecraft.server.dedicated.DedicatedServer are in module minecraft@1.21.1 of loader 'TRANSFORMER' @444548a0)
+	at TRANSFORMER/distanthorizons@3.3.3/com.seibel.distanthorizons.common.AbstractModInitializer_neoforge.lambda$onInitializeServer$1(AbstractModInitializer_neoforge.java:164)
+	at TRANSFORMER/distanthorizons@3.3.3/com.seibel.distanthorizons.neoforge.NeoforgeMain.lambda$subscribeServerStartingEvent$6(NeoforgeMain.java:180)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.initServer(GameTestServer.java:154)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:670)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[2310月2026 10:27:39.335] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+java.lang.ClassCastException: class net.minecraft.gametest.framework.GameTestServer cannot be cast to class net.minecraft.server.dedicated.DedicatedServer (net.minecraft.gametest.framework.GameTestServer and net.minecraft.server.dedicated.DedicatedServer are in module minecraft@1.21.1 of loader 'TRANSFORMER' @444548a0)
+	at TRANSFORMER/distanthorizons@3.3.3/com.seibel.distanthorizons.common.AbstractModInitializer_neoforge.lambda$onInitializeServer$1(AbstractModInitializer_neoforge.java:164) ~[DistantHorizons-3.3.3.jar%23129!/:?]
+	at TRANSFORMER/distanthorizons@3.3.3/com.seibel.distanthorizons.neoforge.NeoforgeMain.lambda$subscribeServerStartingEvent$6(NeoforgeMain.java:180) ~[DistantHorizons-3.3.3.jar%23129!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23106!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98) ~[neoforge-21.1.216.jar%23126!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.initServer(GameTestServer.java:154) ~[neoforge-21.1.216.jar%23125!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:670) ~[neoforge-21.1.216.jar%23125!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.216.jar%23125!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2310月2026 10:27:39.478] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID cc3dc9b5-50eb-433c-a422-21f4e1355ca1
+[2310月2026 10:27:39.479] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: D:\worldadmin\run\crash-reports\crash-2026-10-23_10.27.39-server.txt
+[2310月2026 10:27:39.480] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID b1a08c6b-b8d3-4711-9088-7d51de012749
+[2310月2026 10:27:39.480] [Server thread/ERROR] [net.minecraft.gametest.framework.GameTestServer/]: Game test server crashed
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2026-10-23 10:27:39
+Description: Exception in server tick loop
+
+java.lang.ClassCastException: class net.minecraft.gametest.framework.GameTestServer cannot be cast to class net.minecraft.server.dedicated.DedicatedServer (net.minecraft.gametest.framework.GameTestServer and net.minecraft.server.dedicated.DedicatedServer are in module minecraft@1.21.1 of loader 'TRANSFORMER' @444548a0)
+	at TRANSFORMER/distanthorizons@3.3.3/com.seibel.distanthorizons.common.AbstractModInitializer_neoforge.lambda$onInitializeServer$1(AbstractModInitializer_neoforge.java:164) ~[DistantHorizons-3.3.3.jar%23129!/:?] {re:classloading}
+	at TRANSFORMER/distanthorizons@3.3.3/com.seibel.distanthorizons.neoforge.NeoforgeMain.lambda$subscribeServerStartingEvent$6(NeoforgeMain.java:180) ~[DistantHorizons-3.3.3.jar%23129!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23106!/:?] {}
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98) ~[neoforge-21.1.216.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.initServer(GameTestServer.java:154) ~[neoforge-21.1.216.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:670) ~[neoforge-21.1.216.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.216.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 667462584 bytes (636 MiB) / 939524096 bytes (896 MiB) up to 17087594496 bytes (16296 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12700H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.101.6790
+	Graphics card #1 name: NVIDIA GeForce RTX 4060 Laptop GPU
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 8188.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.5597
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 69259.13
+	Virtual memory used (MiB): 25215.63
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 10.50
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 108330.91, total: 462083.31
+	Space in storage for workdir (MiB): available: 346854.88, total: 976745.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 0 / 1; []
+	Active Data Packs: bundle, trade_rebalance, vanilla, mod_data, mod/mr_epic_terrain_compatible, mod/worldadmin, mod/neoforge, mod/distanthorizons (incompatible)
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/distanthorizons (incompatible), mod/mr_epic_terrain_compatible, mod/neoforge, mod/worldadmin, mod_data
+	Enabled Feature Flags: minecraft:bundle, minecraft:vanilla, minecraft:trade_rebalance
+	World Generation: Stable
+	World Seed: 0
+	Type: Game test server
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserverdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		DistantHorizons-3.3.3.jar                         |Distant Horizons              |distanthorizons               |3.3.3               |Manifest: NOSIGNATURE
+		epic-terrain_compatible-1.0.3.jar                 |Epic Terrain Compatible       |mr_epic_terrain_compatible    |1.0.3               |Manifest: NOSIGNATURE
+		neoforge-21.1.216.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.216.jar                             |NeoForge                      |neoforge                      |21.1.216            |Manifest: NOSIGNATURE
+		main                                              |World Admin                   |worldadmin                    |0.1.0               |Manifest: NOSIGNATURE
+	Crash Report UUID: b1a08c6b-b8d3-4711-9088-7d51de012749
+	FML: 4.0.42
+	NeoForge: 21.1.216

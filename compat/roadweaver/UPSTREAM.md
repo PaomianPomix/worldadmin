@@ -1,0 +1,25 @@
+# RoadWeaver companion source
+
+This tree is based on upstream `shiroha-233/RoadWeaver`, branch `1.21.1-Architectury`, commit `331d4ded998b55f90f9c283b30e2e38223016f3f` (2026-08-02).
+
+Source archive: https://github.com/shiroha-233/RoadWeaver/tree/331d4ded998b55f90f9c283b30e2e38223016f3f
+
+This commit includes the LWJGL/OpenCL packaging correction published with RoadWeaver 2.3.1's dedicated-server hotfix. Upstream publishes no 2.3.1 Git tag and the release JAR contains no commit identifier, so this is a documented source baseline close to that release, not a claim of byte-for-byte reproduction. Upstream build metadata at this commit still reads 2.3.0; this companion has a distinct version.
+
+The original MIT LICENSE and NOTICE are retained. Mod ID stays `roadweaver`. Replace the original RoadWeaver JAR with this companion; **never install both together**. World Admin remains a separate server-only mod.
+
+Companion artifact version: `2.3.1-worldadmin.1-1.21.1`. Its structure-state memory operations additionally adapt upstream commit `a6560085c8c70d92da8758d22838c4a39c39acb2`, with attribution in the source header. The companion adds asynchronous preload, coalesced single-writer checkpoints, per-level identity state, bounded generation and shutdown write fences.
+
+The companion supports the original overworld and explicitly named `worldadmin:<single-name>` dimensions using the registered overworld dimension type. Other dimensions remain ineligible. Client UI/resources are retained for compatibility but client installations of this companion are not required by World Admin itself.
+
+World Admin integration API version 1 is exposed by `net.shiroha233.roadweaver.api.RoadNetworkApi`: `apiVersion()`, `prepareRegionAsync(ServerLevel,int,int,int,int)`, `hasPendingWork(ServerLevel)`, `releaseWorld(ServerLevel)`, `retryFailedRegion(ServerLevel,int,int,int,int)`, and asynchronous `inspectRegionAsync`. Bounds are block coordinates. `RoadWeaverWorlds.supports(Level)` defines eligibility and also exposes `apiVersion()`. Region preparation runs before vanilla chunk requests; completed futures mean the road data consumed by generation is ready, not that vanilla chunks or DH LODs have been saved.
+
+Preparation uses 64-by-64-chunk core tiles with a 128-chunk planning halo, caches completed tiles per loaded world, and shares one bounded road worker budget. Connection selection is spatial and asynchronous, with at most 512 candidates admitted on the server thread per region. A failed road exhausts its automatic retry budget after three failures in the current loaded session; the explicit retry API clears that budget for influencing edges. Disabling roads settles queued work without pretending already-running workers have exited.
+
+Core cells are centered on the origin (`[-512,511]` blocks for cell zero) without reducing their halo. CPU coarse sampling defaults to a minimum 32-block interval, selected with `-Droadweaver.coarseSampleStep=8|16|32`. Heights use bilinear interpolation and water flags conservatively combine contributing corners. A* resolution and exact final road-height refinement remain separate. This changes routing/detail tradeoffs and is not a claim of geometry equivalence to the upstream 8-block sampling. Existing generated terrain is not rewritten. Sampling quality participates in planned-path fingerprints, and coarse tiles already have step-specific storage paths. New configurations default to 100% worker duty because the shared pool already enforces the CPU limit; existing explicit duty settings are preserved.
+
+Existing JSON state is authoritative, including an empty JSON file. A world containing only the older `data/roadweaver_world_data.dat` state is rejected with an offline-migration message; the legacy file is preserved. No implicit synchronous `SavedData` loading or empty-world fallback occurs.
+
+The blocking startup road-preparation mixin is intentionally removed. A brand-new primary overworld can therefore generate its vanilla spawn chunks before road planning starts; no retroactive roads or upstream-identical spawn layout are promised. Existing primary-world road data remains intact. The readiness barrier protects explicit World Admin pregeneration/teleport requests and the supported DH gate, not every chunk requested by unrestricted player exploration. Pregenerate the playable region before opening it to players.
+
+Build verification has passed for NeoForge compilation, remapping, JAR packaging and LWJGL packaging checks. The final common test report contains 117 tests, 7 skipped and no failures. A fresh dedicated-server test with Epic Terrain Compatible 1.0.3 and DH 3.3.3 passed 19 checks: independent road storage, actual native road blocks, and encoded road materials in 145 DH LOD columns, including unload/reload and clean shutdown. See the root docs/VALIDATION.md and docs/validation/combined-smoke.json for evidence and the limits of this short test; full modpack, multiplayer and client-rendering validation remain separate.

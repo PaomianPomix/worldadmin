@@ -1,0 +1,220 @@
+[2310月2026 11:02:50.390] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.216, --fml.neoFormVersion, 20240808.144430, --nogui]
+[2310月2026 11:02:50.394] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250
+[2310月2026 11:02:50.395] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[2310月2026 11:02:50.508] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[2310月2026 11:02:50.554] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Pomix/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[2310月2026 11:02:51.039] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[2310月2026 11:02:51.041] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.6 (architectury)
+		Cloth Config v15 API 15.0.130 (cloth_config)
+		Distant Horizons 3.3.3 (distanthorizons)
+		Epic Terrain Compatible 1.0.3 (mr_epic_terrain_compatible)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.216 (neoforge)
+		RoadWeaver 2.3.1-worldadmin.1-1.21.1 (roadweaver)
+		World Admin 0.1.0 (worldadmin)
+[2310月2026 11:02:51.929] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[2310月2026 11:02:51.934] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui]
+[2310月2026 11:02:52.022] [main/WARN] [mixin/]: Reference map '' for roadweaver.mixins.json could not be read. If this is a development environment you can ignore this message
+[2310月2026 11:02:52.173] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinChunkGenerator] -> [net.minecraft.world.level.chunk.ChunkGenerator]...
+[2310月2026 11:02:52.174] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinChunkMap] -> [net.minecraft.server.level.ChunkMap]...
+[2310月2026 11:02:52.175] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinServerPlayer] -> [net.minecraft.server.level.ServerPlayer]...
+[2310月2026 11:02:52.175] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinTFChunkGenerator] -> [net.minecraft.world.level.chunk.ChunkGenerator]...
+[2310月2026 11:02:52.176] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinTracingExecutor] -> [net.minecraft.Util]...
+[2310月2026 11:02:52.176] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinUtilBackgroundThread] -> [net.minecraft.Util]...
+[2310月2026 11:02:52.177] [main/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.commonMixins.AbstractDhMixinPlugin/]: Apply DH mixin [com.seibel.distanthorizons.neoforge.mixins.server.MixinLevelTicks] -> [net.minecraft.world.entity.Entity]...
+[2310月2026 11:02:53.348] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[2310月2026 11:02:58.298] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 11:02:58.304] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 11:02:58.308] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2310月2026 11:02:58.309] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2310月2026 11:02:58.310] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2310月2026 11:02:58.376] [modloading-worker-0/INFO] [roadweaver/]: Initializing RoadWeaver (NeoForge)...
+[2310月2026 11:02:58.392] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.216, for MC 1.21.1
+[2310月2026 11:02:58.413] [modloading-worker-0/INFO] [roadweaver/]: 配置已加载 (predictRadius=1024, predictionEnabled=true)
+[2310月2026 11:02:58.618] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[2310月2026 11:02:58.627] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer/]: Running library validation...
+[2310月2026 11:02:58.781] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_epic_terrain_compatible] Starting version check at https://api.modrinth.com/updates/sc69VpnK/forge_updates.json?neoforge=only
+[2310月2026 11:02:58.782] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Distant Horizons, Version: 3.3.3
+[2310月2026 11:02:58.797] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [optifine]
+[2310月2026 11:02:58.798] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [c2me]
+[2310月2026 11:02:58.801] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [imm_ptl_core, immersive_portals, immersive_portals_core]
+[2310月2026 11:02:58.803] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [chunky]
+[2310月2026 11:02:58.804] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Skipping mod compatibility accessor for: [iris]
+[2310月2026 11:02:58.806] [modloading-worker-0/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Distant Horizons server Initialized, adding event subscribers...
+[2310月2026 11:02:58.904] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[2310月2026 11:02:59.009] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[2310月2026 11:02:59.010] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/worldadmin/build/moddev/artifacts/neoforge-21.1.216.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[2310月2026 11:02:59.707] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_epic_terrain_compatible] Found status: OUTDATED Current: 1.0.3 Target: 1.0.3+mod
+[2310月2026 11:02:59.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[2310月2026 11:02:59.977] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[2310月2026 11:02:59.992] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_birch_forest, minecraft:is_mangrove
+[2310月2026 11:03:00.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[2310月2026 11:03:00.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[2310月2026 11:03:00.354] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[2310月2026 11:03:00.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[2310月2026 11:03:00.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 127.0.0.1:25589
+[2310月2026 11:03:00.437] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[2310月2026 11:03:00.471] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[2310月2026 11:03:00.472] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[2310月2026 11:03:00.472] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[2310月2026 11:03:00.472] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[2310月2026 11:03:00.497] [Server thread/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file D:\worldadmin\run-smoke\config\worldadmin-server.toml is not correct. Correcting
+[2310月2026 11:03:00.544] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.config.ConfigHandler/]: Initialising config for [DistantHorizons]
+[2310月2026 11:03:00.609] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.config.ConfigHandler/]: [DistantHorizons] Config initialised
+[2310月2026 11:03:00.619] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.config.eventHandlers.IgnoredDimensionCsvHandler/]: Dimension ignoring disabled, DH will render all dimensions.
+[2310月2026 11:03:00.619] [Server thread/INFO] [com.seibel.distanthorizons.core.logging.DhLogger/]: Applying config to loggers
+[2310月2026 11:03:00.620] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer/]: Garbage collectors: [G1 Young Generation, G1 Concurrent GC, G1 Old Generation]
+[2310月2026 11:03:00.620] [Server thread/WARN] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer/]: Distant Horizons: G1 Garbage collector detected.
+This can cause FPS stuttering. 
+It's recommended to use a concurrent garbage collector 
+like ZGC (Java 21+) or Shenandoah (Java 8 through 17) 
+for a smoother experience. 
+This warning can be disabled in the DH config.
+[2310月2026 11:03:00.627] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer/]: Explicit Garbage Collection: [Enabled]
+[2310月2026 11:03:00.627] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Running Delayed setup...
+[2310月2026 11:03:00.627] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[2310月2026 11:03:00.642] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Checking for Distant Horizons [STABLE] update for MC [1.21.1]...
+[2310月2026 11:03:01.935] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Distant Horizons already up to date.
+[2310月2026 11:03:01.937] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.common.AbstractModInitializer_neoforge/]: Distant Horizons server Initialized at 
+[2310月2026 11:03:01.954] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Started [DhServerWorld] of type [SERVER_ONLY].
+[2310月2026 11:03:01.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[2310月2026 11:03:02.336] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.V2.DataMigratorV1/]: No migration necessary.
+[2310月2026 11:03:02.338] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(.\world\data)]].
+[2310月2026 11:03:02.925] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Creating world gen queue
+[2310月2026 11:03:02.926] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Created world gen queue
+[2310月2026 11:03:02.926] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:overworld].
+[2310月2026 11:03:13.426] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.V2.DataMigratorV1/]: No migration necessary.
+[2310月2026 11:03:13.432] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(.\world\data;.\world\DIM1\data)]].
+[2310月2026 11:03:13.451] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.V2.DataMigratorV1/]: No migration necessary.
+[2310月2026 11:03:13.458] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(.\world\data;.\world\DIM1\data;.\world\DIM-1\data)]].
+[2310月2026 11:03:13.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[2310月2026 11:03:13.810] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[2310月2026 11:03:13.914] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 450 ms
+[2310月2026 11:03:13.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.420s)! For help, type "help"
+[2310月2026 11:03:13.942] [Server thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[2310月2026 11:03:13.945] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Creating world gen queue
+[2310月2026 11:03:13.945] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Created world gen queue
+[2310月2026 11:03:13.946] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_end].
+[2310月2026 11:03:13.958] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[2310月2026 11:03:13.970] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Creating world gen queue
+[2310月2026 11:03:13.971] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Created world gen queue
+[2310月2026 11:03:13.971] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_nether].
+[2310月2026 11:03:14.082] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.V2.DataMigratorV1/]: No migration necessary.
+[2310月2026 11:03:14.090] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@worldadmin:smoke_a4b243c98c014998b4e6413e834152e2}] at [[LocalSaveStructure@(.\world\data;.\world\DIM1\data;.\world\DIM-1\data;.\world\dimensions\worldadmin\smoke_a4b243c98c014998b4e6413e834152e2\data)]].
+[2310月2026 11:03:14.101] [Server thread/INFO] [dev.worldadmin.WorldAdmin/]: World Admin ready; managed worlds use the server seed. Optional generation is load-gated.
+[2310月2026 11:03:14.604] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Creating world gen queue
+[2310月2026 11:03:14.605] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Created world gen queue
+[2310月2026 11:03:14.605] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2].
+[2310月2026 11:03:25.374] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.382] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.390] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.394] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.400] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.401] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.401] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.403] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.403] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.403] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.403] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0100-sqlite-deleteLowDetailDataForRegen.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.404] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/]: Running SQL update script: [sqlScripts/0110-sqlite-addApplyToParentIndex.sql], for repo: [.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data\DistantHorizons.sqlite]
+[2310月2026 11:03:25.411] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.V2.DataMigratorV1/]: No migration necessary.
+[2310月2026 11:03:25.418] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@worldadmin:smoke_e56c5d8200f84cb1afa4ba8136b70d23}] at [[LocalSaveStructure@(.\world\data;.\world\DIM1\data;.\world\dimensions\worldadmin\smoke_e56c5d8200f84cb1afa4ba8136b70d23\data;.\world\DIM-1\data;.\world\dimensions\worldadmin\smoke_a4b243c98c014998b4e6413e834152e2\data)]].
+[2310月2026 11:03:25.429] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6262ms or 125 ticks behind
+[2310月2026 11:03:25.445] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[2310月2026 11:03:25.446] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[2310月2026 11:03:25.446] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[2310月2026 11:03:25.446] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[2310月2026 11:03:25.447] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-LOD World Gen/]: Closing [DhChunkGenerator_neoforge]
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-LOD World Gen/]: Closing [DhChunkGenerator_neoforge]
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-LOD World Gen/]: Closing [DhChunkGenerator_neoforge]
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-LOD World Gen/]: Closing [DhChunkGenerator_neoforge]
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [worldadmin:smoke_a4b243c98c014998b4e6413e834152e2] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[2310月2026 11:03:25.448] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[2310月2026 11:03:25.768] [RW-Shared-1/INFO] [roadweaver/]: OpenCL 精采样 GPU 运行时不可用: org/lwjgl/system/FunctionProvider
+[2310月2026 11:03:25.788] [RW-Shared-1/INFO] [roadweaver/]: 粗地形区域按 tile 加载: radiusApproxChunks=160 tiles=441 samples=410881 step=8 maxTiles=70000
+[2310月2026 11:03:25.793] [RW-Shared-1/INFO] [roadweaver/]: OpenCL 粗采样尝试启用: dimension=worldadmin:smoke_e56c5d8200f84cb1afa4ba8136b70d23 samples=1369 preference=AUTO validate=false minSamples=1024
+[2310月2026 11:03:25.812] [RW-Shared-1/INFO] [roadweaver/]: OpenCL 粗采样不可用，回退到 CPU: OpenCL 初始化失败
+java.lang.NoClassDefFoundError: org/lwjgl/system/FunctionProvider
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.opencl.bridge.OpenCLBridge.ensureInitialized(OpenCLBridge.java:53) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.opencl.bridge.OpenCLBridge.open(OpenCLBridge.java:36) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.opencl.OpenCLRuntime.open(OpenCLRuntime.java:100) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.opencl.OpenCLRuntime.tryCreate(OpenCLRuntime.java:60) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.opencl.OpenCLCoarseHeightBatchSampler.tryCreate(OpenCLCoarseHeightBatchSampler.java:73) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.CoarseHeightBatchSamplers.tryCreateOpenCL(CoarseHeightBatchSamplers.java:75) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.cache.CoarseHeightBatchSamplers.create(CoarseHeightBatchSamplers.java:29) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.terrain.region.CoarseTerrainTileSampler.sample(CoarseTerrainTileSampler.java:48) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.terrain.region.CoarseTerrainTileCache.loadOrSample(CoarseTerrainTileCache.java:98) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.terrain.region.CoarseTerrainTileCache.getOrLoad(CoarseTerrainTileCache.java:53) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.terrain.region.CoarseTerrainRegionSampler.loadTilesSequentially(CoarseTerrainRegionSampler.java:126) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.terrain.region.CoarseTerrainRegionSampler.loadTiles(CoarseTerrainRegionSampler.java:81) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.pathfinding.terrain.region.CoarseTerrainRegionSampler.sample(CoarseTerrainRegionSampler.java:69) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.planning.terrain.CoarseCorridorPlanningAdapter.plan(CoarseCorridorPlanningAdapter.java:36) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.planning.terrain.RoadTerrainPlanningPipeline.planCorridor(RoadTerrainPlanningPipeline.java:61) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.planning.terrain.RoadTerrainPlanningPipeline.plan(RoadTerrainPlanningPipeline.java:41) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.planning.RoadPlanningService.planRoadTerrain(RoadPlanningService.java:552) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.planning.RoadPlanningService.lambda$planRectAsync$4(RoadPlanningService.java:463) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at TRANSFORMER/roadweaver@2.3.1-worldadmin.1-1.21.1/net.shiroha233.roadweaver.runtime.ThreadPoolManager$PrioritizedRunnable.run(ThreadPoolManager.java:188) ~[roadweaver-companion.jar%23131!/:2.3.1-worldadmin.1-1.21.1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.system.FunctionProvider
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:216) ~[securejarhandler-3.0.8.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:216) ~[securejarhandler-3.0.8.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 23 more
+[2310月2026 11:03:25.814] [RW-Shared-1/INFO] [roadweaver/]: 粗高度采样使用 CPU: OpenCL 初始化失败
+[2310月2026 11:13:25.471] [Server thread/ERROR] [dev.worldadmin.gametest.SmokeServerChecks/]: World Admin smoke test failed
+java.lang.IllegalStateException: Generation paused with error: [Admission=timed-out request still draining, EWMA=0.2 ms, inFlight=1/1, teleports=0, DH=Distant Horizons generation suspended by World Admin, Road plans waiting=1, chunk requests=0, DH road gate: suspended for World Admin pregeneration; active=0, worldadmin:smoke_a4b243c98c014998b4e6413e834152e2: 0/1 paused Request timeout: draining without cancellation, worldadmin:smoke_e56c5d8200f84cb1afa4ba8136b70d23: 0/1 paused Request timeout: draining without cancellation]
+	at TRANSFORMER/worldadmin@0.1.0/dev.worldadmin.gametest.SmokeServerChecks.tick(SmokeServerChecks.java:76) ~[%23127!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23106!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.event.EventHooks.fireServerTickPost(EventHooks.java:1020) ~[neoforge-21.1.216.jar%23126!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:943) ~[neoforge-21.1.216.jar%23125!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[neoforge-21.1.216.jar%23125!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.216.jar%23125!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2310月2026 11:13:25.536] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[2310月2026 11:13:25.535] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@worldadmin:smoke_a4b243c98c014998b4e6413e834152e2}].
+[2310月2026 11:13:25.536] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@worldadmin:smoke_e56c5d8200f84cb1afa4ba8136b70d23}].
+[2310月2026 11:13:25.535] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[2310月2026 11:13:25.538] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[2310月2026 11:13:25.539] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[2310月2026 11:13:25.539] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[2310月2026 11:13:25.539] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[2310月2026 11:13:25.539] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [5] databases...
+[2310月2026 11:13:25.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[2310月2026 11:13:25.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[2310月2026 11:13:25.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[2310月2026 11:13:25.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[2310月2026 11:13:25.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[2310月2026 11:13:25.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[2310月2026 11:13:25.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/worldadmin:smoke_a4b243c98c014998b4e6413e834152e2
+[2310月2026 11:13:25.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/worldadmin:smoke_e56c5d8200f84cb1afa4ba8136b70d23
+[2310月2026 11:13:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[2310月2026 11:13:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[2310月2026 11:13:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2310月2026 11:13:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (smoke_a4b243c98c014998b4e6413e834152e2): All chunks are saved
+[2310月2026 11:13:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (smoke_e56c5d8200f84cb1afa4ba8136b70d23): All chunks are saved
+[2310月2026 11:13:25.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
